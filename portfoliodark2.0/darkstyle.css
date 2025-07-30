@@ -192,27 +192,6 @@ a{
     }
 
 
-    /* .project-card::after{
-        content:"";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #1f1f1f9a;
-    }
-    .project-card::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: all 0.4s;
-    } */
 .project-card::after {
     content: "";
     position: absolute;
@@ -247,14 +226,9 @@ a{
     font-weight: 600;
     background: none;
     z-index: 10;
-    /* opacity: 0;
-    visibility: hidden;
-    transition: all 0.4s ease; */
+    
 }
-/* .project-card:hover .project-number{
-    opacity: 1;
-    visibility: visible;
-} */
+
 .project-number-right{
     right: -40px;
     top: -45px;
@@ -272,46 +246,46 @@ a{
     background: none;
     transform: scale(0.75);
 }
-    .project-content:hover{
-        transform: scale(1.1);
-    }
-    .project-content-left{
-        left: 40%;
-        bottom: 2%;
-    }
-    .project-content-right{
-        right: -11%;
-        top: -12%;
-    }
-    .project-skills-container{
-        width: 120%;
-        height: 70px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        background: none;
-    }
-    .project-skill{
-        width: 70px;
-        padding: 3px;
-        background: none;
-        position: relative;
-        top: -10px;
-    }
-    .project-skill-four{
-        width: 100px;
-        height: 100px;
-        padding: 3px;
-        background: none;
-        position: relative;
-        top: -10px;
-    }
-    .project-card:hover .project-number{
-        display: none;
-    }
-    .project-card:hover .project-content{
-        transform: scale(1);
-    }
+.project-content:hover{
+    transform: scale(1.1);
+}
+.project-content-left{
+    left: 40%;
+    bottom: 2%;
+}
+.project-content-right{
+    right: -11%;
+    top: -12%;
+}
+.project-skills-container{
+    width: 120%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: none;
+}
+.project-skill{
+    width: 70px;
+    padding: 3px;
+    background: none;
+    position: relative;
+    top: -10px;
+}
+.project-skill-four{
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    background: none;
+    position: relative;
+    top: -10px;
+}
+.project-card:hover .project-number{
+    display: none;
+}
+.project-card:hover .project-content{
+    transform: scale(1);
+}
 
 
 
@@ -443,45 +417,6 @@ a{
     font-size: 1.5rem;
 }
 
-
-
-/* 
-.btn-pink{
-    background-color: #ff3a3a;
-    padding: 0.5rem, 2.3rem;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    box-shadow: 5px 5px 7px 0px #0000003f;
-    position: relative;
-    z-index: 1;
-    border: solid 3px transparent;
-    font-weight: 500;
-    cursor: pointer;
-    width: fit-content;
-}
-
-.btn-pink::before{
-
-    background-color: #c0b8b8;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: all 1s;
-    z-index: -1;
-    content: "";
-
-}
-.btn-pink:hover::before{
-    transform: scaleX(1);
-}
-.btn-pink:hover{
-    border: solid 3px var(--bgOrange);
-    color: rgb(102, 190, 51);
-} */
 
 .btn-pink {
     background: linear-gradient(45deg, #ff3a3a, #ff6a6a);
